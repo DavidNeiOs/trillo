@@ -1,22 +1,9 @@
-/*
-COLORS
+@import "theme/base/variables";
+@import "theme/base/base";
 
-Primary: #eb2f64
-Primary light: #FF3366
-Primary dark: #BA265D
+@import "layout/container/container";
+@import "layout/header/header";
+@import "layout/content/content";
+@import "layout/sidebar/sidebar";
 
-Grey light 1: #faf9f9
-Grey light 2: #f4f2f2
-Grey light 3: #f0eeee
-Grey light 4: #ccc
-
-Grey dark 1: #333
-Grey dark 2: #777
-Grey dark 3: #999
-
-*/
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import "pages/hotel/hotel"
